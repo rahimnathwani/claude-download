@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Download Claude transcript",
+  "description": "Save a Claude chat transcript as an HTML file",
+  "version": "1.0",
+  "host_permissions": ["https://claude.ai/*"],
+  "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": [
+    "downloads"
+  ],
+  "content_scripts": [{
+    "matches": ["https://claude.ai/*"],
+    "js": ["content.js"],
+    "css": ["styles.css"]
+  }]
+}

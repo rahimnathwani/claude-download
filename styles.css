@@ -1,0 +1,19 @@
+.claude-download-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  color: #374151;
+  transition: background-color 0.2s;
+}
+
+.claude-download-button:hover {
+  background-color: #F3F4F6;
+}
+
+.claude-download-button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
