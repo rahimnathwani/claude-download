@@ -2,6 +2,9 @@
 
 A Chrome extension that allows you to save Claude.ai chat conversations as HTML files with preserved formatting.
 
+![Download button](screenshot.png)
+![Output format](screenshot2.png)
+
 ## Features
 
 - Adds a download button to Claude.ai chat interface
